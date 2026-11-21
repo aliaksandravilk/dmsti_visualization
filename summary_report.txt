@@ -1,0 +1,15 @@
+DMSTI co-authorship visualization summary
+
+Number of researchers: 104
+Number of research groups: 9
+Number of researcher pairs with joint publications: 284
+Maximum number of joint publications for one pair: 59
+SMACOF stress value: 792.511448728504
+
+Method:
+Publication data was retrieved from eLABa links.
+Joint publications were filtered into an n x n integer matrix.
+The matrix was transformed with 1 / (a + 1).
+After additional feedback, the transformed matrix was used directly as the dissimilarity matrix.
+No additional Euclidean distance calculation was applied on top of it.
+The final 2D visualizations were created with PCA and SMACOF/MDS.
